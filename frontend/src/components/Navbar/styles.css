@@ -1,0 +1,32 @@
+header {
+    background-color: var(--color-primary);
+    height: 60px; /*altura*/
+    display: flex; /*tamanho flexivel*/
+    align-items: center; /*alinhar verticalmente ao centro*/
+
+}
+
+.dsmovie-nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /*alinhar verticalmente ao centro*/
+    color: #fff;
+}
+
+.dsmovie-nav-content h1{
+    margin: 0;
+    font-weight: 700; /*negrito*/
+    font-size: 24px;
+}
+
+.dsmovie-contact-container{
+    display: flex;
+    align-items: center;
+}
+
+.dsmovie-contact-link {
+    color: #fff;
+    margin: 0 0 0 10px; /*Sentido horario a esquerda terá 10px*/
+    font-size: 12px;
+    text-decoration: none;
+}
